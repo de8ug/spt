@@ -33,10 +33,8 @@ footer: MIT Licensed | Copyright © 2018 - present, Made by DE8UG, Thanks to Eva
 ::: warning 问题反馈: 
 
 发送： `导航：内容` 到
-邮箱：`de8ug@foxmail.com` 
-或
 微信公众号：`第8哥小灶时间`
-
+或直接：[😚issues😚](https://github.com/de8ug/spt/issues)
 
 如果导航对你有所帮助，感谢支持建设:
 

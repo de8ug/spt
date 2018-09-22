@@ -8,18 +8,7 @@
 
 本文的目标是当你需要解决某一类问题的时候，来这里看一眼导航，知道该使用什么代码库入手。
 
-## 综合基础
 
-### 计算机
-
-First Header | Second Header | Third Header
-:-----------: | :-----------: | :-----------:
-Left         | Center        | Right [webpack](http://webpack.js.org/)
-Left         | Center        | Right
-
-### 网络
-
-### 数据库
 
 ## 开发
 

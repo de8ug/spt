@@ -64,17 +64,18 @@ module.exports = {
       }        
     ],
     sidebar:{
-        '/what/': [
-            '/what/', // 文件夹的README.md 不是下拉框形式,这里连接readme
-            {
-              title: '侧边栏下拉框的标题1',
-              children: [
-                '/what/test', // 以docs为根目录来查找文件 
-                // 上面地址查找的是：docs>what>test.md 文件
-                // 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
-              ]
-            }
-          ],
+        '/what/': genSidebarConfig('what'),
+        // [
+        //     '/what/', // 文件夹的README.md 不是下拉框形式,这里连接readme
+        //     {
+        //       title: '具体内容',
+        //       children: [
+        //         '/what/common', // 以docs为根目录来查找文件 
+        //         // 上面地址查找的是：docs>what>test.md 文件
+        //         // 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
+        //       ]
+        //     }
+        //   ],
           '/how/': [
             '/how/', 
             {
@@ -84,22 +85,33 @@ module.exports = {
               ]
             }
           ],
-          '/tools/': genSidebarConfig('工具')   
+          '/tools/': genSidebarConfig('tools')   
       }
   }
 }
 
 
 function genSidebarConfig (title) {
+  let menu_list = {
+    'tools':[
+      '',
+      'vscode',
+      'pycharm'
+    ],
+    'how':[
+      '',
+      'common'
+    ],
+    'what':[
+      '',
+      'common'
+    ]
+  }
   return [
     {
       title,
       collapsable: false,
-      children: [
-        '',
-        'vscode',
-        'pycharm'
-      ]
+      children: menu_list[title]
     }
   ]
 }
