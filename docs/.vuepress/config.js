@@ -56,15 +56,15 @@ module.exports = {
       }, // 外部链接
       // 下拉列表
       {
-        text: 'GitHub',
+        text: '感谢',
         items: [
-          { text: 'GitHub地址1', link: 'https://github.com' },
-          { text: 'GitHub地址2', link: 'https://github.com' },
+          { text: '赞助', link: '/help/' },
+          { text: '鸣谢', link: '/thanks/' },
         ]
       }        
     ],
     sidebar:{
-        '/what/': genSidebarConfig('what'),
+        '/what/': genSidebarConfig('学什么'),
         // [
         //     '/what/', // 文件夹的README.md 不是下拉框形式,这里连接readme
         //     {
@@ -76,16 +76,8 @@ module.exports = {
         //       ]
         //     }
         //   ],
-          '/how/': [
-            '/how/', 
-            {
-              title: '怎么学',
-              children: [
-                '/how/test' 
-              ]
-            }
-          ],
-          '/tools/': genSidebarConfig('tools')   
+          '/how/': genSidebarConfig('怎么学'),
+          '/tools/': genSidebarConfig('工具')   
       }
   }
 }
@@ -93,18 +85,26 @@ module.exports = {
 
 function genSidebarConfig (title) {
   let menu_list = {
-    'tools':[
+    '工具':[
       '',
       'vscode',
       'pycharm'
     ],
-    'how':[
+    '怎么学':[
       '',
-      'common'
+      'plan',
+      'action',
+      'qa'
     ],
-    'what':[
+    '学什么':[
       '',
-      'common'
+      'common',
+      'py-basic',
+      'dev',
+      'ops',
+      'test',
+      'data',
+      'ai',
     ]
   }
   return [
