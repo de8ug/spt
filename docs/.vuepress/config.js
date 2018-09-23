@@ -59,7 +59,7 @@ module.exports = {
         text: '感谢',
         items: [
           { text: '赞助', link: '/help/' },
-          { text: '鸣谢', link: '/thanks/' },
+          { text: '链接', link: '/thanks/' },
         ]
       }        
     ],
