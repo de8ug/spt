@@ -60,5 +60,6 @@ typings/
 # next.js build output
 .next
 
-docs/.vuepress/dist
+docs/.vuepress
+package.json
 deploy.sh
