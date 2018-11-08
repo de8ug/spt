@@ -47,7 +47,7 @@ module.exports = {
         link: '/how/'
       },
       {
-        text: '工具',
+        text: '编程工具QA',
         link: '/tools/',
       },
       {
@@ -100,6 +100,7 @@ function genSidebarConfig (title) {
       '',
       'common',
       'py-basic',
+      'crawl',
       'dev',
       'ops',
       'test',

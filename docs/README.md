@@ -10,7 +10,7 @@ features:
   details: 使用搜索框，迅速根据标题关键词查找具体内容
 - title: 长期更新
   details: 根据软件版本变化和需求更新，跟上代码世界的脚步
-footer: MIT Licensed | Copyright © 2018 - present, Made by DE8UG, Thanks to Evan You
+footer: MIT Licensed | Copyright © 2016 - present, Made by DE8UG, Thanks to Guido & Evan You
 ---
 
 ### 欢迎
@@ -21,7 +21,7 @@ footer: MIT Licensed | Copyright © 2018 - present, Made by DE8UG, Thanks to Eva
 
 - [学什么](/what/):根据不同工作进行分类，列举了Python的常见开发库和使用说明
 - [怎么学](/how/):针对学习过程中可能遇到的心理与身体问题进行解答，希望对爱学习但是缺少行动的你有所帮助
-- [工具](/tools/):对Python开发常用的编程工具进行介绍和问题解答
+- [编程工具QA](/tools/):对Python开发常用的编程工具进行介绍和问题解答
 - [我的学习](http://edu.51cto.com/center/course/user/index): 直接跳转至51CTO学院学习主页
 
 :::
