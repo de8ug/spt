@@ -1,13 +1,15 @@
 # Python基础知识
 
 
-> 知识点1
+> 基本数据结构
 
-[官方文档]() | 8哥解读 | Python随身听
 
-> 书籍推荐
+- [boolean:](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not )  bool类型，判断真假，可搭配and，or，not使用
+- [int,float,complex :](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) 数字类型，整数，浮点数，复数 
 
-book1 | book2
+> 系统操作
+
+- []()
 
 
 ::: tip 学习路上遇到问题？
