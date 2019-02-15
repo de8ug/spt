@@ -3,8 +3,10 @@
 
 > 基本数据结构
 
-
+## boolean  
 - [boolean:](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not )  bool类型，判断真假，可搭配and，or，not使用
+
+## int,float,complex
 - [int,float,complex :](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) 数字类型，整数，浮点数，复数 
 
 > 系统操作
