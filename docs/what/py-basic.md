@@ -242,7 +242,7 @@ SyntaxError: invalid syntax
 ...
 >>> transposed
 [[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
-实际应用中，你应该会更喜欢使用内置函数去组成复杂的流程语句。 [zip()](https://docs.python.org/zh-cn/3/library/functions.html#zip) 函数将会很好地处理这种情况
+实际应用中，你应该会更喜欢使用内置函数去组成复杂的流程语句。 zip()函数将会很好地处理这种情况
 
 >>>
 >>> list(zip(*matrix))
