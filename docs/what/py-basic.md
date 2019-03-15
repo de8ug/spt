@@ -304,12 +304,44 @@ TypeError: 'tuple' object does not support item assignment
 
 这被称为 **序列解包** 也是很恰当的，因为解包操作的等号右侧可以是任何序列。序列解包要求等号左侧的变量数与右侧序列里所含的元素数相同。注意可变参数其实也只是元组打包和序列解包的组合。
 
-## 标准库
+---
+
+> 标准库
+
+## 字符与编码
+
+### base64
+
+## 数学
+
+### math
+### random
+
+## 正则
+
+### re
+
+## 时间
+
+
+## 文件与操作系统
+### os
+### shutil
+### glob
+### fnmatch
+### tempfile
+
+### StringIO
+
+
+## 线程与进程
+
+### threading
 
 
 
 ::: tip 学习路上遇到问题？
 
 欢迎随时在[工单](https://github.com/de8ug/spt/issues)
-或直接公众号`sublimePython`留言进行提问
+或直接公众号`Python随身听`留言进行提问
 :::
