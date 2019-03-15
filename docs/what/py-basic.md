@@ -309,27 +309,61 @@ TypeError: 'tuple' object does not support item assignment
 > 标准库
 
 ## 字符与编码
-
 ### base64
+提供 Base16、Base32、Base64 格式的编码和解码。
+
+
 
 ## 数学
-
 ### math
+封装了常用的数学函数（开方、指数、对数、三角函数......）
 ### random
+进行随机数生成
+```
+import random
+random.seed()
+random.randint(0, 100)
+```
 
 ## 正则
-
 ### re
+正则表达式
 
 ## 时间
 
 
 ## 文件与操作系统
 ### os
+常见的操作系统相关功能
+
 ### shutil
+提供了一些比较高级的文件和目录操作（目录递归复制、目录递归删除、目录压缩打包...）
+示例：
+```
+import shutil
+shutil.rmtree(xxxx)
+```
+
 ### glob
+用于查找文件，【支持通配符】（* 和 ?）
+
+```
+import glob
+for file in glob.glob("./*.txt") :
+    print(file)
+```
+
 ### fnmatch
+用于匹配文件名（支持通配符，类似上面的 glob）
+```
+import os, fnmatch
+
+for file in os.listdir(".") :
+    if fnmatch.fnmatch(file, "*.txt") :
+        print(file)
+```
 ### tempfile
+安全地生成临时文件或临时目录
 
 ### StringIO
 
@@ -337,6 +371,70 @@ TypeError: 'tuple' object does not support item assignment
 ## 线程与进程
 
 ### threading
+提供了比较高层的线程封装 API。它本身包含了线程同步/互斥的机制。
+
+代码示例——基于“函数”的线程
+```
+import threading
+import time
+
+def my_thread() :
+    print("Thread started!")
+    time.sleep(3)
+    print("Thread finished!")
+
+threading.Thread(target=my_thread).start()
+```
+
+代码示例——基于“类”的线程
+```
+import threading
+import time
+from __future__ import print_function
+
+class MyThread(threading.Thread) :
+    def run(self) :
+        print("{} started!".format(self.getName()))
+        time.sleep(3)
+        print("{} finished!".format(self.getName()))
+
+if __name__ == "__main__" :
+    for n in range(10) :
+        mythread = MyThread(name = "Thread-{}".format(n + 1))
+        mythread.start()
+        time.sleep(1)
+```
+
+### subprocess
+用于进程管理，可以启动子进程，通过标准输入输出跟子进程交互。
+
+代码示例——启动命令行进程，并获取该进程的标准输出
+```
+import subprocess
+output = subprocess.check_output(["dir"])  # 获取当前目录的内容
+output = subprocess.check_output(["netstat", "-an"])  # 获取当前网络链接
+```
+
+### multiprocessing
+它是 2.6 版本加入到标准库的，其 API 接口的风格类似于 threading 模块。
+
+它本身包含了进程同步/互斥的机制。
+
+代码示例——利用其 Lock 机制，确保多个子进程的标准输出不会混杂（每次只有一个进程调用 print）。
+
+```
+from multiprocessing import Process, Lock
+
+def f(lock, n) :
+    lock.acquire()
+    print("hello world %d" % n)
+    lock.release()
+
+if __name__ == "__main__" :
+    lock = Lock()
+    for num in range(10):
+        Process(target=f, args=(lock, num)).start()
+```
 
 
 
