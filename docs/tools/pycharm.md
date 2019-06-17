@@ -196,6 +196,8 @@ Ctrl + Shift + A查找编辑器里所有的动作
 Ctrl + Tab在窗口间进行切换
 ```
 
+更多信息参考官方文档：https://www.jetbrains.com/help/pycharm/keyboard-shortcuts-by-category.html?keymap=primary_default
+
 ## 常用设置：
 
 1. pycharm默认是自动保存的，习惯自己按ctrl + s 的可以进行如下设置：  
