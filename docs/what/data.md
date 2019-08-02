@@ -37,6 +37,7 @@
 
 
 ## 数据分析
+
 * blaze：NumPy 和 Pandas 的大数据接口
 * cclib：一个用来解析和解释计算化学软件包输出结果的库
 * NetworkX：一个为复杂网络设计的高性能软件
@@ -68,6 +69,7 @@
 * SciPy：由一些基于 Python ，用于数学，科学和工程的开源软件构成的生态系统
 * statsmodels：统计建模和计量经济学
 * SymPy：一个用于符号数学的 Python 库
+* fuzzywuzzy：文本对比 https://github.com/seatgeek/fuzzywuzzy
 
 ## 数据可视化
 * matplotlib：一个 Python 2D 绘图库
@@ -81,6 +83,7 @@
 * SnakeViz：一个基于浏览器的 Python's cProfile 模块输出结果查看工具
 * vincent：把 Python 转换为 Vega 语法的转换工具
 * VisPy：基于 OpenGL 的高性能科学可视化工具
+* bashplotlib：控制台上的图形展示 https://github.com/glamp/bashplotlib
 
 ## 其他绘图工具
 
