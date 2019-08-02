@@ -336,6 +336,10 @@ random.randint(0, 100)
 ### os
 常见的操作系统相关功能
 
+### path.py
+
+更方便的处理文件路径 https://github.com/jaraco/path.py
+
 ### shutil
 提供了一些比较高级的文件和目录操作（目录递归复制、目录递归删除、目录压缩打包...）
 示例：
