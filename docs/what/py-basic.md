@@ -367,6 +367,22 @@ for file in os.listdir(".") :
 
 ### StringIO
 
+属于Python里面io模块的一种，和文本io类似，只不过是在内存里处理文本流数据。
+
+```
+f = io.StringIO("some initial text data")
+```
+
+https://docs.python.org/zh-cn/3/library/io.html?highlight=stringio
+
+### zlib
+
+此模块为需要数据压缩的程序提供了一系列函数，用于压缩和解压缩。这些函数使用了 zlib 库。zlib 库的项目主页是 http://www.zlib.net. 版本低于 1.1.3 的 zlib 与此 Python 模块之间存在已知的不兼容。1.1.3 版本的 zlib 存在一个安全漏洞，我们推荐使用 1.1.4 或更新的版本。
+
+zlib 的函数有很多选项，一般需要按特定顺序使用。Python文档没有覆盖全部的用法。更多详细信息请于 http://www.zlib.net/manual.html 参阅官方手册。
+
+https://docs.python.org/zh-cn/3/library/zlib.html
+
 
 ## 线程与进程
 
