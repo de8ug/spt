@@ -113,6 +113,33 @@ http://python.net/crew/mhammond/win32/
 
 这个第三方库封装了 Windows API 及 COM API。通过它可以方便地用 Python 进行 Windows 编程（调用 COM 组件、编写 Windows 服务、等）。
 
+## 运维工具
+
+### fabric
+
+https://github.com/fabric/fabric
+https://www.fabfile.org/
+
+连接服务器，远程执行ssh命令
+
+```
+>>> from fabric import Connection
+>>> result = Connection('web1.example.com').run('uname -s', hide=True)
+>>> msg = "Ran {0.command!r} on {0.connection.host}, got stdout:\n{0.stdout}"
+>>> print(msg.format(result))
+Ran 'uname -s' on web1.example.com, got stdout:
+Linux
+```
+
+### ansible
+
+https://github.com/ansible/ansible
+
+https://docs.ansible.com/ansible/latest/index.html
+
+Ansible是一种信息技术自动化工具。它可以配置系统、部署软件和编排更高级的信息技术任务，如连续部署或零停机滚动更新。
+
+
 ::: tip 学习路上遇到问题？
 
 欢迎随时在[工单](https://github.com/de8ug/spt/issues)
