@@ -6,16 +6,37 @@
 
 ## 获取数据
 
+* [purl](https://github.com/codeinthehole/purl):查询和操作url  
+* [requests](https://github.com/psf/requests)
 
+```
+>>> import requests
+>>> r = requests.get('https://api.github.com/user', auth=('user', 'pass'))
+>>> r.status_code
+200
+>>> r.headers['content-type']
+'application/json; charset=utf8'
+>>> r.encoding
+'utf-8'
+>>> r.text
+u'{"type":"User"...'
+>>> r.json()
+{u'disk_usage': 368627, u'private_gists': 484, ...}
+```
+
+* [HTTPie](https://github.com/jakubroztocil/httpie): http客户端，可进行各种http请求相关操作
 
 ## 解析
 
 
 ## 存储
 
+* PDFKit：把网页数据转换成pdf  https://github.com/JazzCore/python-pdfkit
+
+
 ## 爬虫框架
 
-* Scrapy：一个快速高级的屏幕爬取及网页采集框架
+* [Scrapy](https://github.com/scrapy/scrapy)：一个快速高级的网页采集框架
 * cola：一个分布式爬虫框架
 * Demiurge：基于PyQuery 的爬虫微型框架
 * feedparser：通用 feed 解析器
