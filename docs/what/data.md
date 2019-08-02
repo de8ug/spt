@@ -82,5 +82,10 @@
 * vincent：把 Python 转换为 Vega 语法的转换工具
 * VisPy：基于 OpenGL 的高性能科学可视化工具
 
+## 其他绘图工具
+
+* PyGraphviz is a Python interface to the Graphviz graph layout and visualization package。https://github.com/pygraphviz/pygraphviz 
+* igraph is a library for creating and manipulating graphs。https://github.com/igraph/python-igraph
+
 
 
