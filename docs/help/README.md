@@ -3,8 +3,8 @@
 ::: warning 问题反馈: 
 
 发送： `导航：内容` 到
-微信公众号：`第8哥小灶时间`  
-或`de8ug@foxmail.com`  
+微信公众号：`Python随身听`  
+
 或直接：[👉issues](https://github.com/de8ug/spt/issues)
 
 如果导航对你有所帮助，感谢支持建设:
