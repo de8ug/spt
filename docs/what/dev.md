@@ -69,6 +69,7 @@ for infile in sys.argv[1:]:
 * django
 * flask
 * pelican： 静态网站生成器 https://github.com/getpelican/pelican  https://blog.getpelican.com/
+* channels: https://channels.readthedocs.io/en/latest/introduction.html
 
 
 ## 部署
