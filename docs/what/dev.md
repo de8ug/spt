@@ -80,7 +80,11 @@ for infile in sys.argv[1:]:
 
 ### django
 
+[文档（部分汉化）](https://docs.djangoproject.com/zh-hans/2.2/)
+
 ### flask
+
+[官网](https://palletsprojects.com/p/flask/)
 
 ### pelican： 
 静态网站生成器 https://github.com/getpelican/pelican  https://blog.getpelican.com/
