@@ -376,7 +376,11 @@ TypeError: 'tuple' object does not support item assignment
 
 ---
 
-## 标准库
+## 标准库 ----------------
+
+官网总入口: [https://docs.python.org/zh-cn/3/library/index.html](https://docs.python.org/zh-cn/3/library/index.html)
+
+以下为DE8UG总结的比较重点和常用的一些：
 
 ## 字符与编码
 ### base64
@@ -387,6 +391,7 @@ TypeError: 'tuple' object does not support item assignment
 ## 数学
 ### math
 封装了常用的数学函数（开方、指数、对数、三角函数......）
+
 ### random
 进行随机数生成
 ```
@@ -399,12 +404,18 @@ random.randint(0, 100)
 ### re
 正则表达式
 
-## 时间
 
+## 时间
+### time --- 时间的访问和转换
+[https://docs.python.org/zh-cn/3/library/time.html](https://docs.python.org/zh-cn/3/library/time.html)
 
 ## 文件与操作系统
-### os
-常见的操作系统相关功能
+### os --- 操作系统接口模块
+
+常见的操作系统相关功能。[https://docs.python.org/zh-cn/3/library/os.html](https://docs.python.org/zh-cn/3/library/os.html)
+
+### io --- 处理流的核心工具
+[https://docs.python.org/zh-cn/3/library/io.html](https://docs.python.org/zh-cn/3/library/io.html)
 
 ### path.py
 
@@ -449,7 +460,17 @@ f = io.StringIO("some initial text data")
 
 https://docs.python.org/zh-cn/3/library/io.html?highlight=stringio
 
-### zlib
+### csv --- CSV 文件读写
+[https://docs.python.org/zh-cn/3/library/csv.html](https://docs.python.org/zh-cn/3/library/csv.html)
+
+### configparser --- Configuration file parser
+
+[https://docs.python.org/zh-cn/3/library/configparser.html](https://docs.python.org/zh-cn/3/library/configparser.html)
+
+
+## 数据压缩和存档
+
+### zlib --- 与 gzip 兼容的压缩
 
 此模块为需要数据压缩的程序提供了一系列函数，用于压缩和解压缩。这些函数使用了 zlib 库。zlib 库的项目主页是 http://www.zlib.net. 版本低于 1.1.3 的 zlib 与此 Python 模块之间存在已知的不兼容。1.1.3 版本的 zlib 存在一个安全漏洞，我们推荐使用 1.1.4 或更新的版本。
 
@@ -457,6 +478,17 @@ zlib 的函数有很多选项，一般需要按特定顺序使用。Python文档
 
 https://docs.python.org/zh-cn/3/library/zlib.html
 
+### gzip --- 对 gzip 格式的支持
+### bz2 --- 对 bzip2 压缩算法的支持
+### lzma --- 用 LZMA 算法压缩
+### zipfile --- 使用ZIP存档
+### tarfile --- 读写tar归档文件
+
+## 异常处理
+
+### Exception
+
+[https://docs.python.org/zh-cn/3/library/exceptions.html#Exception](https://docs.python.org/zh-cn/3/library/exceptions.html#Exception)
 
 ## 线程与进程
 
