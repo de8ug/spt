@@ -9,28 +9,38 @@
 
 ## 代码规范
 
-* https://github.com/hhatto/autopep8
+### autopep8 
+[https://github.com/hhatto/autopep8](https://github.com/hhatto/autopep8)
 
 
 ## 数据验证
 
-* schema：验证配置文件，表单，命令行等的数据结构 https://github.com/keleshev/schema
+### schema：
+验证配置文件，表单，命令行等的数据结构 [https://github.com/keleshev/schema](https://github.com/keleshev/schema)
 
 ## 控制台/终端工具
 
-* colorama: 输出彩色文本 https://github.com/tartley/colorama
+### colorama: 
+输出彩色文本 [https://github.com/tartley/colorama](https://github.com/tartley/colorama)
 
 
 ## 数据库
 
 
-* sqlalchemy： 数据库工具集和ORM框架 https://github.com/sqlalchemy/sqlalchemy
-* pony： 高级对象关系映射（ORM）库 https://github.com/ponyorm/pony
-* peewee： 一个简单的orm库 https://github.com/coleifer/peewee
+### sqlalchemy： 
+数据库工具集和ORM框架 [https://github.com/sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)
+
+### pony： 
+高级对象关系映射（ORM）库 [https://github.com/ponyorm/pony](https://github.com/ponyorm/pony)
+
+### peewee：
+一个简单的orm库 [https://github.com/coleifer/peewee](https://github.com/coleifer/peewee)
 
 ## 模板引擎
 
-* jinja：https://github.com/pallets/jinja
+### jinja
+
+[https://github.com/pallets/jinja](https://github.com/pallets/jinja)
 
 ```
 {% extends 'base.html' %}
@@ -46,7 +56,9 @@
 
 ## 图像处理
 
-* Pillow：https://github.com/python-pillow/Pillow
+### Pillow：
+
+[https://github.com/python-pillow/Pillow](https://github.com/python-pillow/Pillow)
 
 ```
 # Convert files to JPEG
@@ -66,20 +78,38 @@ for infile in sys.argv[1:]:
 
 ## web开发
 
-* django
-* flask
-* pelican： 静态网站生成器 https://github.com/getpelican/pelican  https://blog.getpelican.com/
-* channels: https://channels.readthedocs.io/en/latest/introduction.html
+### django
+
+### flask
+
+### pelican： 
+静态网站生成器 https://github.com/getpelican/pelican  https://blog.getpelican.com/
+
+###
+channels: 
+
+https://channels.readthedocs.io/en/latest/introduction.html
 
 
 ## 部署
 
-- WhiteNoise：简化处理web服务中的静态文件  http://whitenoise.evans.io/en/stable/
+### WhiteNoise：
+简化处理web服务中的静态文件  [http://whitenoise.evans.io/en/stable/](http://whitenoise.evans.io/en/stable/)
+
 
 ## 函数式编程
 
-* https://github.com/kachayev/fn.py
+### fn.py 
+[https://github.com/kachayev/fn.py](https://github.com/kachayev/fn.py)
+
 
 ## 设计模式
 
-* https://github.com/faif/python-patterns
+### python-patterns
+[https://github.com/faif/python-patterns](https://github.com/faif/python-patterns)
+
+
+## cpython源码分析
+
+### CPython-Internals 
+[https://github.com/zpoint/CPython-Internals](https://github.com/zpoint/CPython-Internals)
