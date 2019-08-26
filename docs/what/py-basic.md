@@ -6,11 +6,81 @@
 ### boolean  
 - [boolean:](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not )  bool类型，判断真假，可搭配and，or，not使用
 
+以下的值都为False，其他的为True
+```
+None
+False
+任何数字类型，例如零，0，0L，0.0，0j。
+任何空序列，例如''，()，[]。
+例如，任何空映射{}。
+用户定义的类的实例，如果该类定义了一个__nonzero__()or __len__()方法，则该方法返回整数零或bool值False
+```
+
+
 ### int,float,complex
 - [int,float,complex :](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) 数字类型，整数，浮点数，复数 
 
+### str, unicode, list, tuple, bytearray, buffer, xrange
 
-## 数据结构
+序列类型：字符串，Unicode字符串，列表，元组，字节数组，缓冲区和xrange对象。
+其中str，list，tuple更为常用。
+
+
+字符串文字用单引号或双引号写入：'xyzzy'，"frobozz"。Unicode字符串很像字符串，但是在语法中使用前面的'u'字符指定：u'abc'，u"def"。除了这里描述的功能之外，字符串方法部分中还描述了特定于字符串的方法。列表用方括号构成，用逗号分隔项目：[a, b, c]。元组由逗号运算符（不在方括号内）构造，带或不带括号括起来，但空元组必须带括号括起来的括号，如a, b, c或()。单个元组元组必须具有尾随逗号，例如(d,)。
+
+Bytearray对象是使用内置函数创建的bytearray()。
+
+缓冲区对象不直接受Python语法支持，但可以通过调用内置函数来创建buffer()。他们不支持连接或重复。
+
+xrange类型的对象类似于缓冲区，因为没有特定的语法来创建它们，但是它们是使用xrange()函数创建的。它们不支持切片，串联或重复使用in，not in，min()或max()对它们是无效的。
+
+大多数序列类型支持以下操作。在in和not in操作具有比较操作相同的优先级。在+与*操作具有相同的优先级对应的数字运算。[3]为可变序列类型提供了其他方法。
+
+### str
+
+```
+str.capitalize()
+
+返回字符串的一个副本，其首字母大写，其余的小写。
+
+str.center(width[, fillchar])
+
+返回以一个长度宽度的字符串为中心。填充是使用指定的fillchar完成的（默认为空格）。
+str.count(sub[, start[, end]])
+
+返回范围start，end 中子串sub的非重叠次数。可选参数开始和结束被解释为切片符号。
+
+str.decode([encoding[, errors]])
+
+使用注册编码的编码解码器解码字符串。编码默认为默认的字符串编码。可能会给出错误来设置不同的错误处理方案。默认值是'strict'，意味着编码错误会增加UnicodeError。其他可能的值是'ignore'，'replace'并且通过注册的任何其他名称codecs.register_error()
+
+str.encode([encoding[, errors]])
+
+返回字符串的编码版本。默认编码是当前的默认字符串编码。可能会给出错误来设置不同的错误处理方案。错误的默认值是'strict'，这意味着编码错误会引发一个错误UnicodeError。其他可能的值'ignore'，'replace'，'xmlcharrefreplace'，'backslashreplace'并通过注册的任何其他名称codecs.register_error()
+
+
+str.endswith(suffix[, start[, end]])
+
+返回True字符串是否与指定的结束后缀，否则返回False。后缀也可以是后缀的元组来查找。随着可选启动，测试开始在那个位置。选择结束时，停止在该位置进行比较。
+
+str.find(sub[, start[, end]])
+
+返回切片中找到substring 子字符串的最低索引s[start:end]。可选参数开始和结束被解释为切片符号。-1如果未找到子项，则返回。
+
+注释
+
+find()只有在您需要知道sub的位置时才应该使用该方法。要检查sub是否是子字符串，请使用in运算符：
+
+>>> 'Py' in 'Python'
+True
+str.format(*args, **kwargs)
+
+执行字符串格式化操作。调用此方法的字符串可以包含由大括号分隔的文本文本或替换字段{}。每个替换字段包含位置参数的数字索引或关键字参数的名称。返回字符串的副本，其中每个替换字段将替换为相应参数的字符串值。
+字符串和Unicode对象有一个独特的内置操作：%操作符
+
+```
+更多[内容](https://docs.python.org/zh-cn/3/library/stdtypes.html#textseq)
+
 
 ### list列表特性
 
