@@ -7,7 +7,7 @@
 或直接公众号`Python随身听`留言进行提问
 
 
-<img src="https://upload.jianshu.io/users/qrcodes/543964/%E5%BE%AE%E4%BF%A1-%E7%AC%AC8%E5%93%A5.jpg" width = "180" height = "150" alt="感谢支持" align="center" />
+<img src="https://upload.jianshu.io/users/qrcodes/543964/%E5%BE%AE%E4%BF%A1-%E7%AC%AC8%E5%93%A5.jpg" width = "150" height = "150" alt="感谢支持" align="center" />
 
 :::
 
@@ -125,6 +125,6 @@ https://channels.readthedocs.io/en/latest/introduction.html
 
 欢迎随时在[工单](https://github.com/de8ug/spt/issues)
 或直接公众号`Python随身听`留言进行提问
-<img src="https://upload.jianshu.io/users/qrcodes/543964/%E5%BE%AE%E4%BF%A1-%E7%AC%AC8%E5%93%A5.jpg" width = "180" height = "150" alt="感谢支持" align="center" />
+<img src="https://upload.jianshu.io/users/qrcodes/543964/%E5%BE%AE%E4%BF%A1-%E7%AC%AC8%E5%93%A5.jpg" width = "150" height = "150" alt="感谢支持" align="center" />
 
 :::
