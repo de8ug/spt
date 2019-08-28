@@ -7,6 +7,15 @@
 或直接公众号`sublimePython`留言进行提问
 :::
 
+## 数学
+
+### sympy
+SymPy is a Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible. SymPy is written entirely in Python.
+
+官网：[https://www.sympy.org/en/index.html](https://www.sympy.org/en/index.html)
+源码：[https://github.com/sympy/sympy](https://github.com/sympy/sympy)
+
+
 * Crab：灵活、快速的推荐引擎
 * gensim：人性化的话题建模库
 * hebel：GPU 加速的深度学习库
