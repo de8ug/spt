@@ -22,7 +22,6 @@ footer: MIT Licensed | Copyright © 2016 - present, Made by DE8UG, Thanks to Gui
 - [学什么](/what/):根据不同工作进行分类，列举了Python的常见开发库和使用说明
 - [怎么学](/how/):针对学习过程中可能遇到的心理与身体问题进行解答，希望对爱学习但是缺少行动的你有所帮助
 - [编程工具QA](/tools/):对Python开发常用的编程工具进行介绍和问题解答
-- [我的学习](http://edu.51cto.com/center/course/user/index): 直接跳转至51CTO学院学习主页
 
 :::
 
